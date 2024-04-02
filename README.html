@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h3>uGuru Data Sciences</h3>
+    <h4>Take-home javascript exercise</h4>
+    
+    <p>In this folder you will find a simple html page and accompanying js/css files:</p>
+    <ul>
+        <li><a href="index.html">index.html</a></li>
+        <li>api.min.js.txt</li>
+        <li>udsTable.css</li>
+        <li>yourJsFile.js.txt</li>
+    </ul>
+    <p>Note: to avoid common email content restrictions, the .js files have been changed to .js.txt. Change the file extenstion back to just .js after downloading. You may need to do the same when you send your response.</p>
+    <p>api.min.js contains some methods for you to use to simulate retrieving data, as well as a helper method for building a table from a datasource.
+        You will use yourJsFile.js to complete some steps for fetching data, processing it, and presenting it. You will find a comment and a couple lines
+        there already, providing documentation on the data api methods and the table helper method.
+    </p>
+    <ol>
+        <li>Get names and counts from the data api, and combine them into one data source.</li>
+        <li>Add another field to the data: percent of total. It should equal count divided by the total of all counts. For example, if the total of all counts is 200, a data item might have { count: 5, percentOfTotal: .025 }</li>
+        <li>Using the table helper method, create a table from this data showing name, count, and the percent of total. Format the last as a percentage, with 2 decimal places (e.g. "2.50%").</li>
+    </ol>
+    <p>Try to minimize the complexity of the algorithms you use for each step.</p>
+    <p>When you are finished, zip up all the files and attach them in a reply. I should be able to simply open index.html and see your solution in action. Good luck!</p>
+    <p>Extra credit items:</p>
+    <ul>
+        <li>Show an error message if the data retrieval fails.</li>
+        <li>Show an indication on the page while the data is still loading.</li>
+        <li>Sort the list alphabetically (how efficiently can you do this? Hint: memory is cheap, time is not)</li>
+        <li>That table sure looks awful, doesn't it? If you feel like it, feel free to spruce it up a little by adding some rules to udsTable.css.</li>
+    </ul>
+</body>
+</html>
